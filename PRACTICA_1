@@ -1,0 +1,31 @@
+#PRÁCTICA 1: MANEJO DE HERRAMIENTAS DE SOFTWARE Y HARDWARE PARA EL PROCESAMIENTO DE SEÑALES
+
+---
+Integrantes: 
+- Didier Manuel Correa Gomez - 2212254
+- Samantha Lucía Triana Toloza - 2212249
+
+Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones
+Universidad Industrial de Santander
+
+Fecha: 04 de marzo del 2025
+---
+
+###Resumen
+La presente práctica se enfoca en reconocer y aprender el manejo de la plataforma GNU Radio y los equipos de laboratorio, desarrollando habilidades para implementar flujogramas y realizar mediciones de señales. Se abordan conceptos fundamentales como la frecuencia de muestreo, iniciando con señales senoidales hasta llegar a señales reales.
+Además, se integra el uso del osciloscopio y el analizador de espectros para interpretar señales en los dominios del tiempo y la frecuencia. También se explora la generación y análisis de señales mediante un radio definido por software (SDR), permitiendo una comprensión más amplia de las mediciones en telecomunicaciones.
+
+### Introducción
+El análisis y procesamiento de señales es esencial en telecomunicaciones e ingeniería. En esta práctica, se introduce el uso de GNU Radio y equipos de laboratorio para desarrollar habilidades en la medición e interpretación de señales. A través de la implementación de flujogramas, el estudiante comprenderá la importancia de la frecuencia de muestreo y su impacto en señales senoidales y reales, como audios y voz pregrabada. Además, se explorará el uso del osciloscopio y el analizador de espectros para observar señales en los dominios del tiempo y la frecuencia. Finalmente, la integración del radio definido por software (SDR) permitirá ampliar el conocimiento sobre la generación y análisis de señales en entornos prácticos.
+
+### Procedimiento
+Cabe resaltar que la presente práctica se desarrolló en tres partes, teniendo como primera parte realizar mediciones de GNU radio para el procesamiento de señales, reconocimiento de equipos y mediciones de potencia y frecuencia.
+De ésta manera en la primera parte, se exploró la herramienta GNU radio con una guía realizada en la plataforma, a partir de la cual se tomaron capturas de las señales generadas para analizar su comportamiento al interpolar, diezmar y aplicar el teorema de Nyquis. Luego en la segunda parte se realizó un análisis a cerca de la amplitud medida y generada del osciloscopio, junto con medidas de atenuación de un cable coaxial. Para finalmente realizar en la tercera parte mediciones de potencia y frecuencia.
+
+
+###Conclusiones
+
+
+
+### Referencias
+- Se empleó el uso de ChatGPT para reformular secciones del texto, verificar gramática, sin embargo el contenido fue desarrollado íntegramente por los autores.
