@@ -21,6 +21,7 @@ La medición de potencia y frecuencia es fundamental en el análisis de señales
 ### **Procedimiento**
     Se realizaron 4 actividades a lo largo de la práctica, en las cuáles se realizaron revisiones de especificaciones de los equipos, simulación de señales en GNU Radio, transmisión y Medición de Señales con el USRP 2920, para finalmente realizar un análisis y conclusiones a cerca de lo obtenido en el laboratorio; esto a partir de preguntas orientadoras asignadas en la guía.
 
+
 ## **Actividad 1: Revisión de Especificaciones de los Equipos**
 
 1. **Revisar Manuales y Verificar Equipos**:
@@ -61,13 +62,37 @@ La medición de potencia y frecuencia es fundamental en el análisis de señales
 ### **Evidencia**
   - Lista con las 5 especificaciones más relevantes de cada equipo:
 
+USRP 2920
+
+•	Rango de frecuencia: 50 MHz a 2.2 GHz 
+•	Ancho de banda instantáneo máximo:
+16-bit: 20 MHz
+8-bit: 40 MHz
+•	Tasa máxima de muestreo I/Q:
+16-bit: 25 MS/s
+8-bit: 50 MS/s
+•	Convertidores de señal:
+DAC: 2 canales, 400 MS/s, 16-bit.
+ADC: 2 canales, 100 MS/s, 14-bit.
+•	Potencia de salida máxima:
+50 MHz a 1.2 GHz: 50 mW a 100 mW (17 dBm a 20 dBm).
+1.2 GHz a 2.2 GHz: 30 mW a 70 mW (15 dBm a 18 dBm)
 
 
+Osciloscopio R&S RTB2004
 
+•	Número de canales: 4 canales.
+•	Frecuencia de muestreo máxima: Hasta 2.5 GS/s en tiempo real.
+•	Ancho de banda: 200 MHz.
+•	Resolución del ADC: 10 bits.
+•	Frecuencia de muestreo máxima: 2.5 GS/s
 
-
-
-
+Analizador de Espectros R&S FPC1000
+•	Rango de frecuencia: 5 kHz hasta 1 GHz.
+•	Ancho de banda de resolución (RBW): 1 Hz hasta 3 MHz.
+•	Nivel de ruido de fase: < -100 dBc/Hz
+•	DANL (Nivel de Ruido de Fondo de Referencia): -150 dBm
+•	Pantalla táctil de alta resolución: 10.1 pulgadas con interfaz táctil intuitiva para facilitar la manipulación de señales.
 
 
 
@@ -97,7 +122,6 @@ La medición de potencia y frecuencia es fundamental en el análisis de señales
 1. ¿Cómo se puede explicar matemáticamente la diferencia entre una fuente de tipo flotante y una de tipo complejo?
     Matemáticamente, una fuente flotante se representa con un número real. La diferencia clave es que la fuente flotante solo tiene una magnitud real, mientras que la fuente compleja permite representar tanto amplitud como fase, lo que es útil en análisis fesoria.
 
-
 2. ¿Cómo afecta la forma de onda a la distribución de energía (potencia) en el dominio de la frecuencia?
     En las diferentes formas de ondas podemos observar diferentes armónicos: Seno 2 armónicos, constante 1 armónico, etc.
 
@@ -108,12 +132,12 @@ La medición de potencia y frecuencia es fundamental en el análisis de señales
     La modifcación del offset, desplaza la señal en el tiempo en amplitud, por otro lado, en frecuencia aparece un nuevo armónico.
     Para finalizar cuando se manipula la fase en radianes, a pesar de que se trabaja con una señal seno, se tiene en el tiempo una gráfica constante y en frecuencia permanece el armónico adicional y existente anteriormente en la señal cuando se le aplicaba el offset, es decir, la señal cuenta con 3 armónicos. Cabe resaltar que offset es 0, en este caso.
 
-
 4. ¿Cómo se relaciona la amplitud de la señal con la potencia observada en el dominio de la frecuencia?
     La amplitud de una señal está directamente relacionada con la potencia observada en el dominio de la frecuencia. En términos generales, la potencia de una señal es proporcional al cuadrado de su amplitud, lo que significa que, al aumentar la amplitud en el dominio del tiempo, se incrementa la energía distribuida en sus componentes frecuenciales.
 
 5. ¿Qué diferencias se observan entre una señal senoidal y una señal cuadrada en el dominio de la frecuencia?
     La señal senoidal contiene una frecuencia fundamental sin armónicos, lo que indica que su espectro de frecuencia es de una sola línea en la frecuencia fundamental. Por otro lado, la señal cuadrada es periódica y posee armónicos a lo largo de su espectro.
+
 
 
 ## **Actividad 3: Transmisión y Medición de Señales con el USRP 2920**
