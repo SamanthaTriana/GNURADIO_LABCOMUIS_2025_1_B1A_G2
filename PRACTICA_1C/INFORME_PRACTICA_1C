@@ -169,7 +169,7 @@ La medición de potencia y frecuencia es fundamental en el análisis de señales
     Se utilizan markers en el analizador de espectro para medir la potencia de la señal y la del ruido. Con estos valores, el SNR se calcula como la diferencia entre la potencia de la señal y la del piso de ruido en dB
 
 5. ¿Qué diferencias se observan en las mediciones de potencia cuando se varía la ganancia del USRP?
-
+    No se logran ver ganancias significativas en las potencias de la señal por el radio y el cable.
 
 6. ¿Es posible medir o estimar la potencia de la señal observada en el osciloscopio? ¿Por qué?
 
@@ -218,13 +218,6 @@ Para obtener un modelo sencillo de pathloss:
 •	Aplica el modelo con exponente de desvanecimiento para entornos generales
 •	Usa Okumura-Hata para modelar redes móviles en ciudades.
 Estas opciones se seleccionaron teniendo en cuenta las variaciones que se pueden presentar en el entorno y la precisión deseada.
-
-### **Conclusiones**
-
-
-
-
-
 
 
 ### Referencias
