@@ -19,7 +19,7 @@ La presente prática resalta la importancia de las mediciones de potencia y frec
 La medición de potencia y frecuencia es fundamental en el análisis de señales, permitiendo evaluar el comportamiento de sistemas de comunicación y radiofrecuencia. Para ello, se emplean equipos de laboratorio como el osciloscopio y el analizador de espectros, junto con herramientas de software como GNU Radio, que facilita el procesamiento y análisis digital de señales. A través de estas herramientas, es posible visualizar y medir distintos parámetros en los dominios del tiempo y la frecuencia, optimizando el diseño y desempeño de sistemas electrónicos y de telecomunicaciones.
 
 ### **Procedimiento**
-    Se realizaron 4 actividades a lo largo de la práctica, en las cuáles se realizaron revisiones de especificaciones de los equipos, simulación de señales en GNU Radio, transmisión y Medición de Señales con el USRP 2920, para finalmente realizar un análisis y conclusiones a cerca de lo obtenido en el laboratorio; esto a partir de preguntas orientadoras asignadas en la guía.
+Se realizaron 4 actividades a lo largo de la práctica, en las cuáles se realizaron revisiones de especificaciones de los equipos, simulación de señales en GNU Radio, transmisión y Medición de Señales con el USRP 2920, para finalmente realizar un análisis y conclusiones a cerca de lo obtenido en el laboratorio; esto a partir de preguntas orientadoras asignadas en la guía.
 
 
 ## **Actividad 1: Revisión de Especificaciones de los Equipos**
