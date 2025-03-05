@@ -1,4 +1,4 @@
-#PRÁCTICA 1C: Mediciones de potencia y frecuencia
+# PRÁCTICA 1C: Mediciones de potencia y frecuencia
 
 ---
 Integrantes: 
@@ -127,7 +127,7 @@ Analizador de Espectros R&S FPC1000
 
 3. ¿Qué sucede con la señal en el dominio del tiempo y la frecuencia si se modifican los diferentes parámetros de la fuente? ¿Lo observado corresponde a lo esperado teóricamente?
     Cabe resaltar que, para las variaciones de amplitud, frecuencia en Hz, offset y fase en radianes se empleó la función seno.
-    De manera práctica se observa que al manipular la amplitud se me modificada la señal en el tiempo de manera significativa, pero en frecuencia se mantienen sus armónicos.
+    De manera práctica se observa que al manipular la amplitud se me modificada la señal en el tiempo de manera significativa, pero en       frecuencia se mantienen sus armónicos.
     Al manipular la frecuencia en Hz, se ve afectado el periodo en el tiempo y la frecuencia se mantiene mostrando sus dos armónicos.
     La modifcación del offset, desplaza la señal en el tiempo en amplitud, por otro lado, en frecuencia aparece un nuevo armónico.
     Para finalizar cuando se manipula la fase en radianes, a pesar de que se trabaja con una señal seno, se tiene en el tiempo una gráfica constante y en frecuencia permanece el armónico adicional y existente anteriormente en la señal cuando se le aplicaba el offset, es decir, la señal cuenta con 3 armónicos. Cabe resaltar que offset es 0, en este caso.
