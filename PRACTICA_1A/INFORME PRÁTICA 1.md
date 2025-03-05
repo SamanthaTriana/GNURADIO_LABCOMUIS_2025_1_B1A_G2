@@ -1,4 +1,4 @@
-#PRÁCTICA 1A: GNU radio para el procesamiento de señales
+# PRÁCTICA 1A: GNU radio para el procesamiento de señales
 
 ---
 Integrantes: 
@@ -20,6 +20,7 @@ El procesamiento de señales es una disciplina clave en ingeniería, donde la te
 Además, técnicas como la interpolación y la decimación permiten ajustar la tasa de muestreo según las necesidades del procesamiento, optimizando el almacenamiento y la transmisión de señales. Sin embargo, una frecuencia de muestreo inadecuada puede causar distorsiones y pérdida de información, afectando la calidad del análisis y la interpretación de los datos. Este documento explora estos conceptos fundamentales y sus aplicaciones en el procesamiento digital de señales.
 
 ### Procedimiento
+
 •	Se abrió el entorno de GNU Radio y se guardó el proyecto con extensión. grc, diferenciándolo del archivo .py generado automáticamente. 
 •	Se añadieron los bloques Signal Source, Throttle, QT GUI Frequency Sink y QT GUI Time Sink para generar, visualizar y controlar señales. 
 •	Se conectaron los bloques asegurando su correcta comunicación, verificando que los textos cambiaran de rojo a negro. 
@@ -31,8 +32,10 @@ Además, técnicas como la interpolación y la decimación permiten ajustar la t
 
 
 ### Conclusiones
+
 En la primera práctica, titulada "Introducción al Laboratorio de Comunicaciones 1", se exploró el manejo de GNU Radio, una herramienta de simulación ampliamente utilizada en sistemas de comunicaciones. El objetivo principal de esta práctica fue familiarizarse con los conceptos básicos y la funcionalidad de los bloques que componen un sistema de comunicaciones digital, así como desarrollar habilidades prácticas en su implementación y ajuste.
 Durante el desarrollo de la actividad, se construyó un sistema básico que permitió experimentar con el ajuste de parámetros fundamentales, como la frecuencia de operación y la frecuencia de muestreo de las señales. Además, se generaron diferentes tipos de señales, las cuales fueron analizadas tanto en el dominio del tiempo como en el dominio de la frecuencia, utilizando herramientas gráficas y analíticas integradas en GNU Radio.
 
 ### Referencias
+
 - Se empleó el uso de ChatGPT para reformular secciones del texto, verificar gramática, sin embargo el contenido fue desarrollado íntegramente por los autores.
