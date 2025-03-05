@@ -11,6 +11,16 @@ Universidad Industrial de Santander
 Fecha: 04 de marzo del 2025
 ---
 
+## Declaración de Originalidad y Responsabilidad
+Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
+
+Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
+
+Uso de IA: [Indicar si se usó IA y para qué aspectos específicos, por ejemplo: "Se utilizó ChatGPT para reformular secciones del texto y verificar gramática, pero el contenido técnico fue desarrollado íntegramente por los autores."]
+
+---
+## Contenido
+
 ### Resumen
 La presente práctica se enfoca en reconocer y aprender el manejo de la plataforma GNU Radio y los equipos de laboratorio, desarrollando habilidades para implementar flujogramas y realizar mediciones de señales. Se abordan conceptos fundamentales como la frecuencia de muestreo, iniciando con señales senoidales hasta llegar a señales reales.
 Además, se integra el uso del osciloscopio y el analizador de espectros para interpretar señales en los dominios del tiempo y la frecuencia. También se explora la generación y análisis de señales mediante un radio definido por software (SDR), permitiendo una comprensión más amplia de las mediciones en telecomunicaciones.
