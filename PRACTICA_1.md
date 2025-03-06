@@ -16,7 +16,7 @@ Los autores de este informe certifican que el contenido aquí presentado es orig
 
 Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
 
-Uso de IA: [Indicar si se usó IA y para qué aspectos específicos, por ejemplo: "Se utilizó ChatGPT para reformular secciones del texto y verificar gramática, pero el contenido técnico fue desarrollado íntegramente por los autores."]
+Se empleó el uso de IA para mejorar la redacción y sinónimos de secciones del informe, a pesar de ésto el contenido técnico fue desarrollado íntegramente por los autores.
 
 ---
 ## Contenido
