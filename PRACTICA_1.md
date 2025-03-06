@@ -25,7 +25,7 @@ Se empleó el uso de IA para mejorar la redacción y sinónimos de secciones del
 La presente práctica se enfoca en reconocer y aprender el manejo de la plataforma GNU Radio y los equipos de laboratorio, desarrollando habilidades para implementar flujogramas y realizar mediciones de señales. Se abordan conceptos fundamentales como la frecuencia de muestreo, iniciando con señales senoidales hasta llegar a señales reales.
 Además, se integra el uso del osciloscopio y el analizador de espectros para interpretar señales en los dominios del tiempo y la frecuencia. También se explora la generación y análisis de señales mediante un radio definido por software (SDR), permitiendo una comprensión más amplia de las mediciones en telecomunicaciones.
 
-**Palabras clave:** GNU radio, amplitud, analizador de espectros, potencia, frecuencia, 
+**Palabras clave:** GNU radio, amplitud, analizador de espectros, potencia, frecuencia.
 
 ### Introducción
 El análisis y procesamiento de señales es esencial en telecomunicaciones e ingeniería. En esta práctica, se introduce el uso de GNU Radio y equipos de laboratorio para desarrollar habilidades en la medición e interpretación de señales. A través de la implementación de flujogramas, el estudiante comprenderá la importancia de la frecuencia de muestreo y su impacto en señales senoidales y reales, como audios y voz pregrabada. Además, se explorará el uso del osciloscopio y el analizador de espectros para observar señales en los dominios del tiempo y la frecuencia. Finalmente, la integración del radio definido por software (SDR) permitirá ampliar el conocimiento sobre la generación y análisis de señales en entornos prácticos.
