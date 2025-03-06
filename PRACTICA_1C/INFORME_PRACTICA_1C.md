@@ -253,7 +253,7 @@ Las mediciones de potencia y ancho de banda son clave para garantizar rendimient
    
 Para medir la respuesta en frecuencia de un canal alámbrico, los métodos más utilizados incluyen analizadores de red (VNA), osciloscopios con generadores de señal, análisis FFT y TDR. La elección del método depende del tipo de canal y la precisión requerida.
 
-8. ¿Cómo se puede obtener un modelo sencillo de las pérdidas (_pathloss_) en un canal inalámbrico?
+7. ¿Cómo se puede obtener un modelo sencillo de las pérdidas (_pathloss_) en un canal inalámbrico?
 
 Para obtener un modelo sencillo de pathloss:
 •	Usa el modelo de espacio libre si no hay obstáculos
