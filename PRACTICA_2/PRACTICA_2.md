@@ -136,6 +136,7 @@ En dónde el modelo permite describir la propagación de ondas electromagnética
 
 
 1.	¿Cuál es el efecto del ruido sobre la respuesta en frecuencia de las señales medidas en el analizador de espectro? ¿Conservan las mismas relaciones que se evidencian en la simulación?
+   
 El ruido afecta la respuesta en frecuencia de las señales medidas en el analizador de espectro al introducir interferencias que pueden manifestarse como impulsos o variaciones a lo largo del espectro. Sin embargo, al aplicar la función Max Hold, es posible visualizar una relación similar a la observada en la simulación, ya que esta función retiene los valores máximos detectados en cada punto de frecuencia a lo largo del tiempo. De este modo, el comportamiento de los armónicos se mantiene, permitiendo comparar la señal real con la simulada, aunque con la influencia adicional del ruido. [3]
 
 2.	¿La relación señal a ruido creada intencionalmente desde el computador se amplifica o se reduce en la señal observada en el analizador de espectro?
@@ -143,19 +144,24 @@ El ruido afecta la respuesta en frecuencia de las señales medidas en el analiza
 En la señal observada en el analizador de espectro, se mantiene similar a la generada en el computador, no ha cambiado considerablemente, indicando una transmisión y medición adecuadas.
 
 3.	Adjunte la evidencia de la medición de la relación señal a ruido de dos formas de onda distinta
+   
 La evidencia se encuentra en la figura 3.3 que se encuentra en la carpeta de la práctica 2.
 
-4.	¿Cómo se evidencia el fenómeno de desviación de frecuencia en el analizador de espectro? Evidenciar al menos con dos formas de onda.
+4.	¿Cómo se evidencia el fenómeno de desviación de frecuencia en el analizador de espectro?
+   Evidenciar al menos con dos formas de onda.
 La desviación de frecuencia en el analizador de espectro se evidencia por el aumento del número de armónicos, visibles como picos adicionales, donde la señal ocupa un mayor ancho de banda en lugar de un solo pico definido, lo cual sucedió con las dos forma analizadas.
 
 5.	Determine la afectación de un medio de transmisión coaxial (usar cables largos) sobre una señal periódica operando a las capacidades máximas de muestreo del USRP.
+   
 NOTA: La frecuencia de transmisión no debe superar los 1000 MHz para ser observada en el analizador. Para el experimento, se considera la atenuación, dispersion y demás para evidenciar las diversas degradaciones que pueden llegar afectar a la señal estudiada directa o indirectamente.
 Así mismo, afecta la señal periódica al atenuarla en el espectro, genera una señal más definida, pero con una pérdida de potencia progresiva a medida que aumenta la longitud del cable.
 
 6.	Usando cables coaxiales de diferentes longitudes, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida?
+
 Con cables largos, la señal sufre mayor atenuación, reduciendo su amplitud y generando una variación muy pequeña en la frecuencia central, además de un ligero retardo en la transmisión. Caso contrario con cables cortos, en donde la atenuación es menor, manteniendo una mejor amplitud y la fidelidad de la señal sin afectar significativamente su frecuencia ni introducir retardos perceptibles
 
 7.	Usando antenas, ¿cómo afecta la distancia entre el transmisor y el receptor a la amplitud de la señal medida? ¿Es posible compensar el fenómeno?
+   
 Cuando la distancia entre el transmisor y el receptor es corta, la señal se amplifica debido a una menor dispersión y atenuación. En distancias largas, la amplitud de la señal disminuye, ya que la propagación en el espacio libre y las pérdidas afectan su intensidad. Además, si hay una perturbación en el medio, como una mano cerca de la antena, parte de la energía se absorbe, afectando la señal. Este fenómeno puede compensarse ajustando la potencia de transmisión, usando antenas direccionales o amplificadores de señal.
 
 
@@ -168,6 +174,7 @@ Cuando la distancia entre el transmisor y el receptor es corta, la señal se amp
 Los fenómenos de canal se evidencian en la señal recibida como atenuación, reduciendo su amplitud por pérdidas en el medio; desvanecimiento, con fluctuaciones en la potencia debido a interferencias, ruido, afectando la claridad con componentes no deseados.
 
 2.	¿Cómo se pueden mitigar los efectos del canal en la señal recibida?
+
 Se pueden mitigar usando filtros pasa banda o pasa bajos para reducir ruido, amplificadores para contrarrestar la atenuación. Aunque actualmente existen sistemas modernos como WIFI o 5G, permiten ajustar dinámicamente la transmisión para optimizar el rendimiento en distintos entornos.
 
 
